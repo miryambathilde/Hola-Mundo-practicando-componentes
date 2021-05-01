@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 /* IMPORT DEL COMPONENTE NAVBAR */
 import { NavbarComponent } from './navbar/navbar.component';
+/* IMPORT DEL COMPONENTE FOOTER */
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
     DashboardComponent,
     /* COMPONENTE NAVBAR */
     NavbarComponent,
+    /* COMPONENTE FOOTER */
     FooterComponent
   ],
   imports: [
