@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 /* IMPORT DEL COMPONENTE FOOTER */
 import { FooterComponent } from './footer/footer.component';
 import { TablaComponent } from './dashboard/tabla/tabla.component';
+import { ListaComponent } from './dashboard/lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TablaComponent } from './dashboard/tabla/tabla.component';
     NavbarComponent,
     /* COMPONENTE FOOTER */
     FooterComponent,
-    TablaComponent
+    TablaComponent,
+    ListaComponent
   ],
   imports: [
     BrowserModule,
