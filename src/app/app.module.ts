@@ -5,14 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 /* IMPORT DEL COMPONENTE DASHBOARD */
 import { DashboardComponent } from './dashboard/dashboard.component';
+/* IMPORT DEL COMPONENTE NAVBAR */
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     /* COMPONENTE DASHBOARD */
     DashboardComponent,
-    NavbarComponent
+    /* COMPONENTE NAVBAR */
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
